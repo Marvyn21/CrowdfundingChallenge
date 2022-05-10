@@ -76,6 +76,7 @@
     outline: none;
     color: white;
     font-family: var(--main-font);
+    cursor: pointer;
 }
 .bookmark button{
     width: 150px;
@@ -86,6 +87,7 @@
     background-image: url("./images/icon-bookmark.svg");
     background-repeat: no-repeat;
     background-size: contain;
+    cursor: pointer;
 }
 
 .euculyptus-container{
