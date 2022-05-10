@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ body{
+     width: 1440px;
+     --moderate-cyan: hsl(176, 50%, 47%);
+    --dark-cyan: hsl(176, 72%, 28%);
+    --black: hsl(0, 0%, 0%);
+    --dark-gray: hsl(0, 0%, 48%);
+    --main-font: 'Commissioner', sans-serif;
+ }
+ .wholefund{
+     background-color: rgb(253, 247, 247);
+ }
+ .header-section{
+     background-image: url("./images/image-hero-desktop.jpg");
+     height: 400px;
+     width: 100%;
+ }
+ .navbar{
+     border: 1px solid red;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 1000px;
+     margin: 0 auto;
+     padding: 15px;
+ }
+ .nav-content ul{
+     display: flex;
+     list-style: none;
+ }
+ .nav-content ul li{
+     padding: 5px 15px;
+     color: white;
+     font-family: 'Commissioner', sans-serif;
+ }
+ .container-one{
+     border: 1px solid black;
+     width: 650px;
+     margin: 0 auto;
+     margin-top: -100px;
+     background-color: rgb(253, 247, 247);
+     /* padding: 0 30px; */
+     display: grid;
+     grid-template-rows: 4 1fr;
+     grid-gap: 10px;
+ }
+ .bamboo-container{
+    margin: 0 auto;
+    font-family: 'Commissioner', sans-serif;
+    text-align: center;
+    /* border: 2px solid green; */
+    margin-bottom: 15px;
+    background-color: white;
+    width: 100%;
+ }
+.bamboo-container > .image{
+    margin-top: -28px;
+}
+.buttons{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.button-back button{
+    width: 150px;
+    background-color: var(--moderate-cyan);
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: var(--main-font);
+}
+.bookmark button{
+    width: 150px;
+    background-color: gainsboro;
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    background-image: url("./images/icon-bookmark.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.euculyptus-container{
+    /* height: 250px; */
+    background-color: white;
+    /* border: 1px solid black; */
+    padding: 15px;
+    display: grid;
+    grid-gap: 10px;
+    
+}
+.euculyptus-container span{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--main-font);
+}
+.number-content{
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-between;
+    /* padding: 18px; */
+    width: 100%;
+    margin-bottom: 15px;
+    font-family: var(--main-font);
+}
+.first, .second{
+    width: 33.33%;
+    border-right: 2px solid gainsboro;
+    padding: 20px;
+}
+.third{
+    width: 33.33%;
+    padding: 20px;
+}
+.progress{
+    width: 100%;
+    max-width: 500px;
+    height: 6px;
+    border-radius: 3px;
+    background: rgb(253, 247, 247);
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+}
+.progress span{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: var(--moderate-cyan);
+    background-size: 300% 100%
+}
+.project-about{
+    padding: 30px;
+    background-color: white;
+}
+.about{
+    font-family: 'Commissioner', sans-serif;
+    /* border: 2px solid green; */
+    margin-bottom: 25px;
+    background-color: white;
+    width: 100%;   
+    display: grid;
+    grid-gap: 10px;
+}
+.bamboo-stand, .black-edition-stand, .mahogany-edition{
+    padding: 13px;
+    font-family: var(--main-font);
+    border: 2px solid rgb(223, 220, 220);
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.mahogany-edition{
+    opacity: 0.5;
+}
+.stand-header, .black-edition-header, .mahogany-edition-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.stand-header a, .black-edition-header a, .mahogany-edition-header a{
+    text-decoration: none;
+    color: var(--dark-cyan);
+}
+.stand-body, .black-edition-body, .mahogany-edition-body{
+    line-height: 1.6;
+}
+.stand-footer, .black-edition-footer, .mahogany-edition-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0 15px 0;
+    
+}
+.stand-footer span, .black-edition-footer span, .mahogany-edition-footer span{
+    font-size: xx-large;
+    font-weight: 700;
+}
+.bamboo-edition-footer p{
+    min-height: 10em;
+    
+    vertical-align: middle;
+}
+.stand-footer button, .black-edition-footer button{
+    padding: 10px;
+    border-radius: 20px;
+    width: 150px;
+    color: white;
+    background-color: var(--moderate-cyan);
+    border: none;
+    outline: none;
+    font-family: var(--main-font);
+}
+.mahogany-edition-footer button{
+    padding: 10px;
+    border-radius: 20px;
+    width: 150px;
+    color: white;
+    background-color: var(--dark-gray);
+    border: none;
+    outline: none;
+    font-family: var(--main-font);
+}
